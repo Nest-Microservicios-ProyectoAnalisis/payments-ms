@@ -2,3 +2,5 @@ PORT = 3003
 
 
 STRIPE_SECRET=
+
+NATS_SERVERS = "nats://localhost:4222"
