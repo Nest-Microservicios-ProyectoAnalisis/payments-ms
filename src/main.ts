@@ -32,6 +32,8 @@ app.connectMicroservice<MicroserviceOptions>({
   
   await app.listen(process.env.PORT ?? envs.port);
 
+  console.log('Health Check configured');
+
   logger.log(`Payments running in port ${envs.port}`)
 }
 bootstrap();
